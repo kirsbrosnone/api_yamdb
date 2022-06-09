@@ -50,10 +50,25 @@ API позволяет оставлять и просматривать отзы
 ### Инструкция по запуску проекта на своей машине:
 1. Скачиваем репозиторий
 2. Устанавливаем и активируем виртуальное окружение  
-3. Устанавливаем зависимости `pip install -r requirements.txt`
-4. Запустить миграции `python manage.py migrate`  
-5. Создать суперюзера для доступа к админке `python manage.py createsuperuser`
-6. Запуск проекта `python manage.py runserver`
+3. Устанавливаем зависимости
+```sh
+pip install -r requirements.txt
+```
+4. Запустить миграции
+```sh
+python manage.py migrate
+```
+5. Создать суперюзера для доступа к админке
+```sh
+python manage.py createsuperuser
+```
+6. Запуск проекта
+```sh
+python manage.py runserver
+```
 
 ### Инструкция по созданию dummy data
-> Для создания dummy data используйте кастомную management-команду `python manage.py create_dummy_data`
+> Для создания dummy data используйте кастомную management-команду
+```sh
+python manage.py create_dummy_data
+```
